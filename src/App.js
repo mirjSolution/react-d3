@@ -23,7 +23,7 @@ function App() {
       <button onClick={() => setData(data.map((value) => value + 5))}>
         Update Data
       </button>
-      <button onClick={() => setData(data.filter((value) => value < 35))}>
+      <button onClick={() => setData(data.filter((value) => value <= 35))}>
         Filter Data
       </button>
     </React.Fragment>
