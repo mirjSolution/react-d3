@@ -1,4 +1,17 @@
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
 svg {
   background: #eee;
   overflow: visible;
+}
+
+button {
+  width: 92px;
+  display: block;
+  margin: 10px auto;
 }
